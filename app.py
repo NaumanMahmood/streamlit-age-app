@@ -1,5 +1,5 @@
 import streamlit as st
-from datetime import datetime
+import datetime
 
 st.title("How Old Will You Be in 2063?")
 st.write("Enter your details below:")
