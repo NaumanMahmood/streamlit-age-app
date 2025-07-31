@@ -6,7 +6,7 @@ st.write("Enter your details below:")
 
 # Input fields
 name = st.text_input("Your Name")
-dob = st.date_input("Date of Birth", min_value=1900)
+dob = st.date_input("Date of Birth", min_value=datetime.date(1900, 1, 1))
 
 if name and dob:
     age_in_2063 = 2063 - dob.year
